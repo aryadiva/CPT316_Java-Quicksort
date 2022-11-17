@@ -68,7 +68,7 @@ public class QuickSortJava {
          ---------------------------------------------------------*/
 
         // the pivot is based on the middle element of the whole array
-        String pivot = array[lowerIndex + (higherIndex - lowerIndex) / 2]; // Best case scenario
+        String pivot = array[lowerIndex]; // Best case scenario
 
         // while low index is smaller or equal than high index
         while (i <= j) {
